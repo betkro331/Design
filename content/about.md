@@ -1,17 +1,11 @@
 ---
-Title: About
-Description: This is short facts about me.
+Title: Om
+Description: Tekniker
 ---
 
-About me
+Om-sida
 ==========================
-
-Short facts about me:
-
-* favorite cuisine: japanese and italian
-* oldest collection: soaps and foreign coins
-* wanted to be when I grew up: a vet
-* favorite subject in school: history and biology
-* greatest role model: Sir David Attenborough
-* first consert I attended as a teenager: Depeche Mode in Copenhagen
-* my first job: selling sweets and soda at an amusement park
+Jag har försökt göra allt enligt guiden och bl.a importerat min gamla style
+in i style.scss. Förutom de tekniker enligt guiden försökte jag använda
+SASS-variabler för färg som jag definierade till $primary-color
+och $footer-text.

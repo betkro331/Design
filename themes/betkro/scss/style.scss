@@ -1,0 +1,41 @@
+@import '../../node_modules/normalize.css/normalize';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+$base-color: #c6538c; // light pink
+@import '../../shared/scss/base';
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pangolin&display=swap');
+@import 'oldstyle';
+
+* {
+    font-family: 'Pangolin', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+}
+
+$primary-color: #dbdbdb;
+
+body {
+    color: $primary-color;
+}
+
+$footer-text: black;
+
+.footer {
+    color: $footer-text;
+}
+.footer p {
+    color: $footer-text;
+}
+.footer a {
+    color: $footer-text;
+}
