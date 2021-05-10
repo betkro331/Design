@@ -28,14 +28,16 @@ body {
     color: $primary-color;
 }
 
-$footer-text: black;
+$footer-text: #0000;
 
 .footer {
     color: $footer-text;
 }
+
 .footer p {
     color: $footer-text;
 }
+
 .footer a {
     color: $footer-text;
 }
