@@ -1,0 +1,158 @@
+[33mcommit 5d9b2e3f23c863026f3cb7e8970d59fe8a704c2d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;33mtag: v2.0.0[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: betkro <bettinakron@hotmail.com>
+Date:   Mon Nov 16 06:46:11 2020 +0100
+
+    Design kmom02
+
+[1mdiff --git a/config/config.yml b/config/config.yml[m
+[1mindex 930ecca..9521668 100644[m
+[1m--- a/config/config.yml[m
+[1m+++ b/config/config.yml[m
+[36m@@ -1,7 +1,7 @@[m
+ ##[m
+ # Basic[m
+ #[m
+[31m-site_title: Design v3               # The title of your website[m
+[32m+[m[32msite_title: Bettinas design         # The title of your website[m
+ base_url: ~                         # Pico will try to guess its base URL, if this fails, override it here;[m
+                                     #     Example: https://example.com/pico/[m
+ rewrite_url: ~                      # A boolean (true or false) indicating whether URL rewriting is forced[m
+[1mdiff --git a/content/_meta.md b/content/_meta.md[m
+[1mindex f5757c9..58227f9 100644[m
+[1m--- a/content/_meta.md[m
+[1m+++ b/content/_meta.md[m
+[36m@@ -1,8 +1,17 @@[m
+ ---[m
+ Logo: image/bk2.jpg[m
+[31m-Tagline: Välkommen till min design-sida[m
+[32m+[m[32mTagline: Ekonom och student vid BTH[m
+ Social:[m
+     - title: Link till sidans github repo.[m
+       url: https://github.com/betkro331[m
+[31m-      icon: github[m
+[32m+[m[32m      icon: fab fa-github[m
+[32m+[m
+[32m+[m[32m    - title: Link till Font Awesome[m
+[32m+[m[32m      url: https://fontawesome.com/[m
+[32m+[m[32m      icon: fab fa-font-awesome[m
+[32m+[m
+[32m+[m[32m    - title: Link till Bluetooth[m
+[32m+[m[32m      url: https://www.bluetooth.com/[m
+[32m+[m[32m      icon: fab fa-bluetooth[m
+[32m+[m
+ ---[m
+[1mdiff --git a/content/about.md b/content/about.md[m
+[1mindex fea86f7..b305991 100755[m
+[1m--- a/content/about.md[m
+[1m+++ b/content/about.md[m
+[36m@@ -1,17 +1,11 @@[m
+ ---[m
+[31m-Title: About[m
+[31m-Description: This is short facts about me.[m
+[32m+[m[32mTitle: Om[m
+[32m+[m[32mDescription: Tekniker[m
+ ---[m
+ [m
+[31m-About me[m
+[32m+[m[32mOm-sida[m
+ ==========================[m
+[31m-[m
+[31m-Short facts about me:[m
+[31m-[m
+[31m-* favorite cuisine: japanese and italian[m
+[31m-* oldest collection: soaps and foreign coins[m
+[31m-* wanted to be when I grew up: a vet[m
+[31m-* favorite subject in school: history and biology[m
+[31m-* greatest role model: Sir David Attenborough[m
+[31m-* first consert I attended as a teenager: Depeche Mode in Copenhagen[m
+[31m-* my first job: selling sweets and soda at an amusement park[m
+[32m+[m[32mJag har försökt göra allt enligt guiden och bl.a importerat min gamla style[m
+[32m+[m[32min i style.scss. Förutom de tekniker enligt guiden försökte jag använda[m
+[32m+[m[32mSASS-variabler för färg som jag definierade till $primary-color[m
+[32m+[m[32moch $footer-text.[m
+[1mdiff --git a/content/report/kmom02.md b/content/report/kmom02.md[m
+[1mnew file mode 100755[m
+[1mindex 0000000..b9e8d4a[m
+[1m--- /dev/null[m
+[1m+++ b/content/report/kmom02.md[m
+[36m@@ -0,0 +1,12 @@[m
+[32m+[m[32m---[m
+[32m+[m[32mTitle: Report page[m
+[32m+[m[32mDescription: Report for sub-course 2 (kmom02)[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32mReport for kmom02[m
+[32m+[m[32m==========================[m
+[32m+[m[32mJag är inte bekant med Node, npm eller npm scripts sedan tidigare, och inte heller SASS. Att ge nybörjare uppmaningen att ”kika runt bland manualer som finns //…// för att lära dig hur man skriver SASS-konstruktioner” var inget vidare. Hade föredragit att få en lärarledd grund först för att själv sedan kunna gå vidare.[m
+[32m+[m
+[32m+[m[32mJag tror att jag till slut lyckades kompilera SASS till CSS. Jag fick flera felmeddelanden körde bara "trial and error". Det mesta kraschade på min sida utan att jag förstod hur jag skulle åtgärda det. Jag hade gjort enligt guiden och genomgången men missade förstås någonting någonstans, och som nybörjare är det inte lätt att förstå hur och var man ska leta. Mitt tema och min design hade egentligen en grundtanke kring färg och tema från Ex-Machina, men det gick sådär. Fonten som används i filmen låg bakom betalvägg så jag valde två helt andra, som inte ens liknade.[m
+[32m+[m
+[32m+[m[32mJag tycker att det mesta i detta kmom bara var rörigt och tyvärr inte särskilt lärorikt. Det kändes mest som att man klippte och klistrade in kodstycken i olika filer utan att förstå varför. En mycket rörig och otydlig guide (övning 1 och 2), som möjligen blev lite lättare att förstå när man följde föreläsningen. Efterfrågar guider som är mindre röriga, hoppiga och pratiga. Uttryck som ”hoppa in i mappen” är inte särskilt informativt. Inte heller ”vi behöver lägga till följande”. Skriv gärna var något ska läggas till, och varför. För en nybörjare som mig var detta kmom bara förvirrande.[m
+[1mdiff --git a/github.txt b/github.txt[m
+[1mindex d40ce81..1ba7d58 100755[m
+[1m--- a/github.txt[m
+[1m+++ b/github.txt[m
+[36m@@ -1 +1,2 @@[m
+ https://github.com/betkro331/Design-kmom01[m
+[32m+[m[32mhttps://github.com/betkro331/Design-kmom02[m
+[1mdiff --git a/themes/.stylelintrc b/themes/.stylelintrc[m
+[1mnew file mode 100755[m
+[1mindex 0000000..b3b743f[m
+[1m--- /dev/null[m
+[1m+++ b/themes/.stylelintrc[m
+[36m@@ -0,0 +1,24 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m    "extends": [[m
+[32m+[m[32m        "stylelint-config-sass-guidelines"[m
+[32m+[m[32m    ],[m
+[32m+[m[32m    "rules": {[m
+[32m+[m[32m        "indentation": [[m
+[32m+[m[32m            4,[m
+[32m+[m[32m            {[m
+[32m+[m[32m                "except": [[m
+[32m+[m[32m                    "value"[m
+[32m+[m[32m                ][m
+[32m+[m[32m            }[m
+[32m+[m[32m        ],[m
+[32m+[m[32m        "at-rule-no-unknown": null,[m
+[32m+[m[32m        "order/properties-alphabetical-order": null,[m
+[32m+[m[32m        "selector-max-compound-selectors": 5[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "ignoreFiles": [[m
+[32m+[m[32m        "**/node_modules/",[m
+[32m+[m[32m        "shared/fontawesome/**/*.scss",[m
+[32m+[m[32m        "**/*.css",[m
+[32m+[m[32m        "**/*.min.css"[m
+[32m+[m[32m    ][m
+[32m+[m[32m}[m
+[1mdiff --git a/themes/betkro-test/LICENSE b/themes/betkro-test/LICENSE[m
+[1mnew file mode 100755[m
+[1mindex 0000000..91a34cf[m
+[1m--- /dev/null[m
+[1m+++ b/themes/betkro-test/LICENSE[m
+[36m@@ -0,0 +1,21 @@[m
+[32m+[m[32mThe MIT License (MIT)[m
+[32m+[m
+[32m+[m[32mCopyright (c) 2012 The Pico Community[m
+[32m+[m
+[32m+[m[32mPermission is hereby granted, free of charge, to any person obtaining a copy[m
+[32m+[m[32mof this software and associated documentation files (the "Software"), to deal[m
+[32m+[m[32min the Software without restriction, including without limitation the rights[m
+[32m+[m[32mto use, copy, modify, merge, publish, distribute, sublicense, and/or sell[m
+[32m+[m[32mcopies of the Software, and to permit persons to whom the Software is[m
+[32m+[m[32mfurnished to do so, subject to the following conditions:[m
+[32m+[m
+[32m+[m[32mThe above copyright notice and this permission notice shall be included in all[m
+[32m+[m[32mcopies or substantial portions of the Software.[m
+[32m+[m
+[32m+[m[32mTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR[m
+[32m+[m[32mIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,[m
+[32m+[m[32mFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE[m
+[32m+[m[32mAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER[m
+[32m+[m[32mLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,[m
+[32m+[m[32mOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE[m
+[32m+[m[32mSOFTWARE.[m
+[1mdiff --git a/themes/betkro-test/README.md b/themes/betkro-test/README.md[m
+[1mnew file mode 100755[m
+[1mindex 0000000..56bf903[m
+[1m--- /
