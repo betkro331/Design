@@ -1,9 +1,36 @@
 ---
-Title: Report page
+Title: Kmom 1
 Description: Report for sub-course 1 (kmom01)
 ---
 
-Report for kmom01
-==========================
-Jag har inte jobbat med ramverk eller andra CMS:er tidigare. Jag är heller inte bekant med de nya verktygen och tekniker i labbmiljön för att jobba med portfolio-sidan.
-Gällande tankar och idéer om design och användbarhet för webben så tycks trenden de senaste åren vara flashiga stora foton med väldigt lite text.  Menyrader tycks ofta vara borttagna till förmån för den lilla ikonen med x antal små linjer (vet inte vad den kallas), vilket innebär minst ett extra klick eftersom man inte innan vet vad som döljer sig bakom den ikonen. Min gissning är att detta beror på att många företag tänker sig att folk surfar på sina mobiler nuförtiden, och inte på stora datorskärmar. Många hemsidor tycks alltså mest vara anpassade till mobiler och inte ha support även för större enheter. Det är ofta svårt att hitta information och man måste scrolla mycket. Jag som ofta söker på hemsidor i mitt jobb måste hitta information snabbt, annars tröttnar jag, lämnar sidan och googlar vidare. Med andra ord är det viktigare att sidan är funktionell, snabbnavigerad och användarvänlig än att designen är snygg (men det hänger till viss del ihop).
+<div class="wrapper">
+    <div class="aside-left">
+        <a href="../report/kmom01"><li>Kmom 1</li></a>
+        <a href="../report/kmom02"><li>Kmom 2</li></a>
+        <a href="../report/kmom03"><li>Kmom 3</li></a>
+        <a href="../report/kmom04"><li>Kmom 4</li></a>
+        <a href="../report/kmom05"><li>Kmom 5</li></a>
+        <a href="../report/kmom06"><li>Kmom 6</li></a>
+        <a href="../report/kmom10"><li>Kmom 10</li></a>
+    </div>
+    <div class=kmom-content>
+        <h2>Redovisning för kmom 1</h2>
+        <p>Jag har inte jobbat med ramverk eller andra CMS:er tidigare. Jag är heller inte bekant med de nya verktygen och tekniker i labbmiljön för att jobba med portfolio-sidan.</p>
+        <p>Gällande tankar och idéer om design och användbarhet för webben så tycks trenden de senaste åren vara flashiga stora foton med väldigt lite text. Menyrader tycks ofta vara borttagna till förmån för "hamburgermenyn", vilket innebär minst ett extra klick eftersom man inte innan vet vad som döljer sig bakom den ikonen. Många företag tänker sig att folk surfar på sina mobiler nuförtiden, och inte på stora datorskärmar men att ovan meny även ofta gäller vid stor skärm så tyder ju det på att responsiviteten är si sådär. Dessutom är det ofta svårt att hitta information och man måste scrolla mycket. Jag som jätteofta gör sökningar på hemsidor i mitt jobb måste hitta information snabbt, och regeln om tre sekunder (som Emil nämnde) stämmer verkligen. Med andra ord är det viktigare att sidan är snabb, funktionell, snabbnavigerad och användarvänlig än att designen är snygg (även om det förstås också hänger ihop till viss del).</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
