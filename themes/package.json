@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
     "style": "sass betkro/scss/style.scss betkro/css/style.css --no-source-map",
-    "style-min": "sass betkro/scss/style.scss betkro/css/style.min.css --no-source-map --style compressed"
+    "style-min": "sass betkro/scss/style.scss betkro/css/style.min.css --no-source-map --style compressed",
+    "watch": "sass betkro/scss/style.scss betkro/css/style.css --no-source-map --watch",
+    "watch-min": "sass betkro/scss/style.scss betkro/css/style.min.css --no-source-map --style compressed --watch"
   },
   "keywords": [],
   "author": "",

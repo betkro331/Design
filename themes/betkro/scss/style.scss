@@ -4,10 +4,15 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
-$base-color: #c6538c; // light pink
+
+// $base-color: #c6538c; // light pink
+
 @import '../../shared/scss/base';
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Pangolin&display=swap');
+@import 'report';
 @import 'oldstyle';
+@import 'variables';
+
 
 * {
     font-family: 'Pangolin', sans-serif;
@@ -22,22 +27,24 @@ h6 {
     font-family: 'Lato', sans-serif;
 }
 
-$primary-color: #dbdbdb;
-
 body {
     color: $primary-color;
 }
 
-$footer-text: #0000;
-
 .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
     color: $footer-text;
 }
 
+// p-tagg är per default ett block-element
 .footer p {
     color: $footer-text;
 }
 
+// a-tagg är per default ett line-element
 .footer a {
-    color: $footer-text;
+    padding: 5px;
+    color: $footer-text;  
 }
