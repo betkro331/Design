@@ -51,17 +51,21 @@
     font-weight: bold;
 }
 
-.aside-left li:hover,
-li:active {
-    color: rgb(25, 102, 25);
+.aside-left li:hover {
+    // color: rgb(25, 102, 25);
+    color: #2eae9b;
     font-size: larger;
 }
+
+// .aside-left li a:active {
+//     color: rgb(25, 102, 25);
+//     font-size: larger;
+// }
 
 .kmom-content {
     grid-column: 2;
     flex-direction: column;
     padding: 0 2em;
-   
 }
 
 .kmom-content h2,

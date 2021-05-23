@@ -7478,28 +7478,32 @@ h6 {
 
 body {
   color: #dbdbdb;
-  background-color: #f8f8ff;
+  background-color: #becad4;
 }
 
 .header {
-  background: #d3d3d3;
+  background: linear-gradient(#363b73, #7a8288);
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  color: #000;
-  background: #333;
+  color: #7d7d7d;
+  background: #212121;
+}
+
+.kmom-box {
+  background-color: #7a8288;
 }
 
 .footer p {
-  color: #000;
+  color: #7d7d7d;
 }
 
 .footer a {
   padding: 5px;
-  color: #000;
+  color: #7d7d7d;
 }
 
 a {
@@ -7511,5 +7515,5 @@ a {
 }
 
 a:hover {
-  color: #2eae9b;
+  color: #383d73;
 }

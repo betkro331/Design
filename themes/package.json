@@ -6,10 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass betkro/scss/style.scss betkro/css/style.css --no-source-map",
-    "style-min": "sass betkro/scss/style.scss betkro/css/style.min.css --no-source-map --style compressed",
-    "watch": "sass betkro/scss/style.scss betkro/css/style.css --no-source-map --watch",
-    "watch-min": "sass betkro/scss/style.scss betkro/css/style.min.css --no-source-map --style compressed --watch"
+    "watch": "sass betkro/scss/style.scss:betkro/css/style.css betkro/scss/style-dark.scss:betkro/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass betkro/scss/style.scss:betkro/css/style.min.css betkro/scss/style-dark.scss:betkro/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-light": "sass betkro/scss/style.scss betkro/css/style.css --no-source-map",
+    "style-light-min": "sass betkro/scss/style.scss betkro/css/style.min.css --no-source-map --style compressed",
+    "style-dark": "sass betkro/scss/style-dark.scss betkro/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass betkro/scss/style-dark.scss betkro/css/style-dark.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

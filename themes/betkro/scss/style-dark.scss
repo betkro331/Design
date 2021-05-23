@@ -1,10 +1,9 @@
 @import 'links';
-@import 'variables';
+@import 'variables-dark';
 
 @import '../../shared/scss/base';
 @import 'report';
 @import 'oldstyle';
-
 
 
 * {
@@ -36,6 +35,11 @@ body {
     color: $footer-text;
     background: $footer-background;
 }
+
+.kmom-box {
+    background-color: #7a8288;
+}
+
 
 // p-tagg är per default ett block-element
 .footer p {

@@ -17,7 +17,7 @@
         <link rel="canonical" href="{{ current_page.url }}" />
     {% endif %}
 
-    {% if config.session.theme == "dark" %}
+     {% if config.session.theme == "dark" %}
     <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.css" type="text/css" />
     {% else %}
     <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
@@ -62,8 +62,9 @@
         </div>
     </div>
 
-      <div class="main" role="main">
-        <div class="wrapper">
+    <div class="main" role="main">
+        {# {{ dump( config.session )}} #}
+        <div class="landingpage">
             {{ content }}
         </div>
     </div>
