@@ -7463,6 +7463,27 @@ input::-moz-focus-inner, button::-moz-focus-inner {
   padding: 0;
 }
 
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5em 1.5em;
+  padding: 1.5em;
+  width: 80%;
+  margin: auto;
+}
+
+@media (max-width: 992px) {
+  .gallery {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 767px) {
+  .gallery {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+}
 * {
   font-family: "Pangolin", sans-serif;
 }

@@ -7463,6 +7463,27 @@ input::-moz-focus-inner, button::-moz-focus-inner {
   padding: 0;
 }
 
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5em 1.5em;
+  padding: 1.5em;
+  width: 80%;
+  margin: auto;
+}
+
+@media (max-width: 992px) {
+  .gallery {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 767px) {
+  .gallery {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+}
 * {
   font-family: "Pangolin", sans-serif;
 }
@@ -7478,28 +7499,28 @@ h6 {
 
 body {
   color: #dbdbdb;
-  background-color: #f8f8ff;
+  background-color: ghostwhite;
 }
 
 .header {
-  background: #d3d3d3;
+  background: lightgray;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  color: #000;
-  background: #333;
+  color: black;
+  background: #333333;
 }
 
 .footer p {
-  color: #000;
+  color: black;
 }
 
 .footer a {
   padding: 5px;
-  color: #000;
+  color: black;
 }
 
 a {
