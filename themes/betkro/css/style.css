@@ -6817,6 +6817,7 @@ template {
 .landingpage h1 {
   grid-column: span 3;
   justify-self: center;
+  color: black;
 }
 
 .kmom-box {
@@ -6828,15 +6829,24 @@ template {
   padding: 1em;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  color: black;
 }
 
-.kmom-box h2 {
+.kmom-box h2,
+a {
   transition: transform 0.2s;
+  color: black;
 }
 
 .kmom-box h2:hover {
-  transform: translateY(-3px) rotate(2deg);
+  transform: translateY(-4px) rotate(2deg);
+  color: #363b73;
+}
+
+.kmom-box p {
   color: black;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .kmom-box.design {
@@ -7035,17 +7045,17 @@ body {
 
 .nav a, .nav-toggle {
   color: #333;
+  padding: 3px;
 }
 
-.nav .active a, .nav a:hover, .nav-toggle:hover {
-  /* color: #3b440d; */
-  color: #2eae9b;
+.nav .active a {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .nav a:hover, .nav-toggle:hover {
-  /* color: #3b440d; */
-  color: #2eae9b;
   text-decoration: underline;
+  color: rgb(255, 255, 255);
 }
 
 .nav-toggle {
@@ -7074,8 +7084,7 @@ body {
 }
 
 .footer a:hover {
-  color: #fff;
-  /*white*/
+  color: rgb(54, 59, 115);
 }
 
 .footer p {
@@ -7528,17 +7537,18 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  color: black;
+  color: #a1a1aa;
   background: #333333;
 }
 
 .footer p {
-  color: black;
+  color: #a1a1aa;
+  font-size: 1.2rem;
 }
 
 .footer a {
   padding: 5px;
-  color: black;
+  color: #a1a1aa;
 }
 
 a {

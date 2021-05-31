@@ -45,6 +45,7 @@ body {
 // p-tagg är per default ett block-element
 .footer p {
     color: $footer-text;
+    font-size: 1.2rem;
 }
 
 // a-tagg är per default ett line-element
@@ -62,5 +63,5 @@ a {
 }
 
 a:hover {
-    color: $hover-color;
+    color: $hover-color-sidebar;
 }

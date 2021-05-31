@@ -28,7 +28,7 @@ Jag navigerade runt på de tre hemsidorna för att få en känsla för färgval 
 
 **Hemsida 1: Team Nordic Trail**
 
-<img src=../assets/img/tnt.png>  
+<img src=../assets/img/tnt.png alt="Team Nordic Trail">  
 #
 Dominerande på [Team Nordic Trails](https://teamnordictrail.se) hemsida är fotografier. Utöver det är den dominerande färgen blå som används i olika nyanser. De använder ett monokromt färgschema med mörkblått, mellanblått och ljusblått. De använder också ett färgschema med gråskala från ljusgrått till mörkgrått. Den ljusgråa nyans som finns i loggan återkommer som randig utfyllnad på sidorna. Bakgrundsfärgen är vit, vilket är bra då fokus ligger på fotografier och videor. 
 
@@ -47,7 +47,7 @@ Olika blåa och gråa nyanser är tämligen trygga och neutrala färger som gene
 
 **Hemsida 2: Runacademy**
 
-<img src=../assets/img/runacademy.png>  
+<img src=../assets/img/runacademy.png alt="Runacademy">  
 #
 [Runacademys](https://runacademy.se) dominerande färger är blått och grönt och de använder sig både av ett monokromt och analogt färgschema. De har olika nyanser av blått men också grönt som ligger bredvid blått i färgschemat. Både den cyanblåa färgen och den gröna färgen har hög mättnad och båda färgerna upplever jag som rena och fräscha. Den blåa och gröna färgen återkommer i olika temarutor och i footern. Menyn är sparsmakad och stilren. Dominerande är fotografier som upptar hela bredden under menyn och i dem återkommer också olika blåa och gröna toner.
 
@@ -66,7 +66,7 @@ Jag anser att de rena och klara färgvalen, typografin och den lite avskalade la
 
 **Hemsida 3: Trailrunning Sweden**
 
-<img src=../assets/img/trailrunningsweden.png>  
+<img src=../assets/img/trailrunningsweden.png alt="Trailrunning Sweden">  
 #
 [Trailrunning Swedens](https://trailrunningsweden.se) hemsida har grundfärgerna mörk cyanblå och gult och färgschemat är sålunda komplementärt. Syftet är att matcha svenska flaggan, som finns i loggan, och symbolen i namnet (Sweden). Samma mörka cyanblåa och gula färg går också igen i de löparkläder de säljer, vars utseende starkt associeras med svenska flaggan (men med en mörkare blå färg).
 Hemsidan har också olika nyanser av grått i en skala från nästan svart till ljusgrått.

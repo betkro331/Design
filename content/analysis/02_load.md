@@ -33,21 +33,21 @@ Jag använde mig av [PageSpeed Insights](https://developers.google.com/speed/pag
 
 [Team Nordic Trail](https://teamnordictrail.se) hade en genomsnittlig laddningstid på 5.49 sekunder vilket jag ändå tycker är acceptabelt. Genomsnittlig resurs är 10.53MB och sidans storlek är 6.50MB. Sidan får lågt betyg på PageSpeed Insight där betyget blev 8 (dator) och 10 (mobil). För att sidan ska kunna laddas snabbare kan de aktivera textkomprimering, ta bort resurser som blockerar renderingen samt ta bort CSS som inte används. 
 
-<img src=../assets/img/tnt.png>  
+<img src=../assets/img/tnt.png alt="Team Nordic Trail">  
 #
 
 **Hemsida 2: Runacademy**
 
 [Runacademys](https://runacademy.se) hade en genomsnittlig laddningstid på 2.82 sekunder vilket jag tycker är bra. Snittvärdet för resurser är 5.30MB och storleken 3.20MB. De klarar dock inte PageSpeed Insight så väl där betyget blev 27 (dator) och 20 (mobil). Tidsbesparing kan framför allt göras genom att skicka bilder i ett modernare bildformat.
 
-<img src=../assets/img/runacademy.png>  
+<img src=../assets/img/runacademy.png alt="Runacademy">  
 #
 
 **Hemsida 3: Trailrunning Sweden**
 
 [Trailrunning Swedens](https://trailrunningsweden.se) hemsida laddades på i genomsnitt 9,09 sekunder vilket är mycket långsamt. Snittvärdet för resurser var 17.13MB och storleken 9.97MB. I PageSpeed Insights prestandatest fick de betyget 7 (dator) och 6 (mobil). Åtgärder som de kan vidta för att snabba på laddningen är att skjuta upp inläsning av bilder som inte visas på skärmen, ta bort JavaScript som inte används och skicka bilder i modernare bildformat.
 
-<img src=../assets/img/trailrunningsweden.png>  
+<img src=../assets/img/trailrunningsweden.png alt="Trailrunning Sweden">  
 #
 
 ##Analys

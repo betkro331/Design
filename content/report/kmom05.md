@@ -5,19 +5,19 @@ Description: Report for sub-course 5
 
 <div class="wrapper">
     <div class="aside-left">
-        <a href="../report/kmom01"><li>Kmom 1</li></a>
-        <a href="../report/kmom02"><li>Kmom 2</li></a>
-        <a href="../report/kmom03"><li>Kmom 3</li></a>
-        <a href="../report/kmom04"><li>Kmom 4</li></a>
-        <a href="../report/kmom05"><li>Kmom 5</li></a>
-        <a href="../report/kmom06"><li>Kmom 6</li></a>
-        <a href="../report/kmom10"><li>Kmom 10</li></a>
+        <a href="../report/kmom01">Kmom 1</a>
+        <a href="../report/kmom02">Kmom 2</a>
+        <a href="../report/kmom03">Kmom 3</a>
+        <a href="../report/kmom04">Kmom 4</a>
+        <a href="../report/kmom05">Kmom 5</a>
+        <a href="../report/kmom06">Kmom 6</a>
+        <a href="../report/kmom10">Kmom 10</a>
     </div>
     <div class=kmom-content>
         <h2>Redovisning för kmom 5</h2>
         <p>Först en video på en gullig pacarana som tvättar sig.</p>
         <div class="embed-container">
-            <iframe src="https://www.youtube.com/embed/ckg3DDsDWWA" frameborder="0" allowfullscreen></iframe>
+            <iframe title="Video med gullig pacarana" src="https://www.youtube.com/embed/ckg3DDsDWWA" frameborder="0" allowfullscreen></iframe>
         </div>
         <br>
         <p>Min allmänna uppfattning kring bilder på webben är att många tycks använda dem ”bara för att” utan någon egentlig tanke om kontext, storlek, tidsoptimering osv. Det är inte ovanligt att hemsidor har bilder som ligger som ”stora blaffor” och att man måste scrolla ner innan man ens hittar någon form av information man är ute efter.</p>
